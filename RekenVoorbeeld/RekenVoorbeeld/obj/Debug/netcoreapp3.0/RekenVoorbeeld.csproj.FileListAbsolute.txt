@@ -1,0 +1,11 @@
+C:\Users\Paul\source\repos\RekenVoorbeeld\RekenVoorbeeld\bin\Debug\netcoreapp3.0\RekenVoorbeeld.exe
+C:\Users\Paul\source\repos\RekenVoorbeeld\RekenVoorbeeld\bin\Debug\netcoreapp3.0\RekenVoorbeeld.deps.json
+C:\Users\Paul\source\repos\RekenVoorbeeld\RekenVoorbeeld\bin\Debug\netcoreapp3.0\RekenVoorbeeld.runtimeconfig.json
+C:\Users\Paul\source\repos\RekenVoorbeeld\RekenVoorbeeld\bin\Debug\netcoreapp3.0\RekenVoorbeeld.runtimeconfig.dev.json
+C:\Users\Paul\source\repos\RekenVoorbeeld\RekenVoorbeeld\bin\Debug\netcoreapp3.0\RekenVoorbeeld.dll
+C:\Users\Paul\source\repos\RekenVoorbeeld\RekenVoorbeeld\bin\Debug\netcoreapp3.0\RekenVoorbeeld.pdb
+C:\Users\Paul\source\repos\RekenVoorbeeld\RekenVoorbeeld\obj\Debug\netcoreapp3.0\RekenVoorbeeld.AssemblyInfoInputs.cache
+C:\Users\Paul\source\repos\RekenVoorbeeld\RekenVoorbeeld\obj\Debug\netcoreapp3.0\RekenVoorbeeld.AssemblyInfo.cs
+C:\Users\Paul\source\repos\RekenVoorbeeld\RekenVoorbeeld\obj\Debug\netcoreapp3.0\RekenVoorbeeld.dll
+C:\Users\Paul\source\repos\RekenVoorbeeld\RekenVoorbeeld\obj\Debug\netcoreapp3.0\RekenVoorbeeld.pdb
+C:\Users\Paul\source\repos\RekenVoorbeeld\RekenVoorbeeld\obj\Debug\netcoreapp3.0\RekenVoorbeeld.csprojAssemblyReference.cache
