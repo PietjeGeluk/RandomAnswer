@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace RekenVoorbeeld
 {
@@ -17,7 +17,7 @@ namespace RekenVoorbeeld
             
             while (aantal < 4)
             {
-                Console.WriteLine("Hoi " + Naam);
+                Console.WriteLine("Hoi" + Naam);
                 Random ran = new Random();
 
                 int x = ran.Next(1, 10);
@@ -25,27 +25,33 @@ namespace RekenVoorbeeld
 
                 int uitkomt = x + y;
                 Console.WriteLine("Hoeveel is " + x + " + " + y + " bij elkaar?");
-
-                int invoer = Convert.ToInt32(Console.ReadLine());
-
-                if (invoer == uitkomt)
+                try
                 {
-                    goede++;
-                    aantal++;
-                    Console.WriteLine("Goed geantwoord! Je score is: " + goede.ToString());
-                }
-                else
-                {
-                    if (goede <= 0)
+                    int invoer = Convert.ToInt32(Console.ReadLine());
+
+                    if (invoer == uitkomt)
                     {
-                        goede = 0;
+                        goede++;
+                        aantal++;
+                        Console.WriteLine("Goed geantwoord! Je score is: " + goede.ToString());
                     }
                     else
                     {
-                        goede--;
+                        if (goede <= 0)
+                        {
+                            goede = 0;
+                        }
+                        else
+                        {
+                            goede--;
+                        }
+                        aantal++;
+                        Console.WriteLine("Helaas niet goed geantwoord! Je score is:" + goede.ToString());
                     }
-                    aantal++;
-                    Console.WriteLine("Helaas niet goed geantwoord! Je score is:" + goede.ToString());
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Je hebt een ongeldige gegevens ingevoerd!");
                 }
             }
         }
@@ -57,4 +63,3 @@ namespace RekenVoorbeeld
         }
     }
 }
-
