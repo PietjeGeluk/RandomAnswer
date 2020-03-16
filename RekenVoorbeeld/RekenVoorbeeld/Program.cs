@@ -17,7 +17,7 @@ namespace RekenVoorbeeld
             
             while (aantal < 4)
             {
-                Console.WriteLine("Hoi" + Naam);
+                Console.WriteLine("Hoi " + Naam);
                 Random ran = new Random();
 
                 int x = ran.Next(1, 10);
